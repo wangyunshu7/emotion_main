@@ -47,16 +47,53 @@ sudo -u emotion -H ls -la /srv/emotion/app
 
 `/srv/emotion/app` 必须为空才能执行 clone；若其中已存在文件，先检查目录内容，不要直接删除。已有正确的 Git 仓库时无需再次克隆。克隆后应能看到 `/srv/emotion/app/backend`，然后继续第 2 节安装环境。
 
-## 2. 安装 Conda 环境和数据库
+## 2. 准备 Conda 环境和数据库
 
-继续在当前管理员账号执行，自动获取 Conda 路径：
+继续在能使用 Conda 的管理员账号中执行，自动获取 Conda 路径：
 
 ```bash
 EMOTION_CONDA_BASE=$(conda info --base)
-sudo "$EMOTION_CONDA_BASE/bin/conda" create -p /srv/emotion/env --override-channels -c conda-forge python=3.12 nodejs=22 pip -y
-sudo "$EMOTION_CONDA_BASE/bin/conda" create -p /srv/emotion-db/env --override-channels -c conda-forge postgresql=16 -y
+conda env list
+```
+
+### 2.1 准备应用环境（二选一）
+
+**已有 emotion 环境且已安装 requirements：** 克隆已有环境到服务目录，复用已安装的 Python 包，不重复执行 pip install。源环境保持原样。自动定位环境，不要求 Conda 必须安装在特定位置：
+
+```bash
+EMOTION_SOURCE_ENV=$(conda run -n emotion python -c 'import sys; print(sys.prefix)')
+sudo "$EMOTION_CONDA_BASE/bin/conda" create -p /srv/emotion/env --clone "$EMOTION_SOURCE_ENV" -y
+```
+
+如果源环境位于 `/root/miniconda3/envs/emotion` 等 root 私有目录，普通服务用户无法直接访问，不能只把 systemd 的 Python 路径改到该目录。克隆后仍使用后文统一的 `/srv/emotion/env` 路径，无需开放 `/root` 权限或让应用以 root 运行。若 `/srv/emotion/env` 已经是准备好的环境，跳过克隆。
+
+**尚未准备应用环境：** 只在没有可复用环境时执行以下命令，已有环境者跳过此代码块：
+
+```bash
+sudo "$EMOTION_CONDA_BASE/bin/conda" create -p /srv/emotion/env --override-channels -c conda-forge python=3.12 pip -y
 sudo /srv/emotion/env/bin/python -m pip install -r /srv/emotion/app/requirements.txt
 ```
+
+两种方式完成后，都检查 Python 版本和依赖，并准备前端构建所需的 Node.js：
+
+```bash
+sudo -u emotion /srv/emotion/env/bin/python -c 'import sys; print(sys.version); assert sys.version_info >= (3, 12), "Python 3.12+ required"'
+sudo -u emotion /srv/emotion/env/bin/python -m pip check
+sudo "$EMOTION_CONDA_BASE/bin/conda" install -p /srv/emotion/env --override-channels -c conda-forge nodejs=22 -y
+/srv/emotion/env/bin/node --version
+```
+
+若版本检查失败，应先将应用环境升级到 Python 3.12 并重新核对项目依赖，再继续部署。如果已有兼容的 Node.js 22.12+，可跳过 Node.js 安装命令。
+
+### 2.2 准备独立数据库环境
+
+PostgreSQL 与 Python 应用环境分开。已安装应用 requirements 不代表已安装 PostgreSQL 服务端；首次部署执行：
+
+```bash
+sudo "$EMOTION_CONDA_BASE/bin/conda" create -p /srv/emotion-db/env --override-channels -c conda-forge postgresql=16 -y
+```
+
+若这个数据库环境已准备好，跳过创建命令。
 
 仅对首次部署的空数据目录执行一次初始化。Unix socket 使用本机 peer 认证，TCP 连接使用密码：
 
@@ -290,7 +327,7 @@ curl -f -H 'Host: 47.245.56.28' http://127.0.0.1/health/ready
 
 随后在自己的电脑打开 **http://47.245.56.28/**，注册账号，登录、新建日记、保存并刷新，确认内容仍然存在。无需加 `/frontend` 或 `:8000`。
 
-本方案默认关闭外部 AI，日记和基础统计可用；需要 AI 分析时，另行填写根目录 `.env.example` 中的真实供应商、模型、密钥、定价和预算配置，再重启 API 与 worker。生产环境禁止 fake provider 和演示账号种子；关怀资源完成内容审核和发布后才会展示。
+本方案默认关闭外部 AI，日记和基础统计可用；需要 AI 分析时，另行填写根目录 `.env.example` 中的真实供应商、模型、密钥、定价和预算配置，再重启 API 与 worker。生产环境禁止 fake provider 和演示账号种子；关怀活动按第 7 节批量导入后即可展示。
 
 | 现象 | 检查方法 |
 |---|---|
@@ -309,6 +346,45 @@ sudo journalctl -u emotion-api -u emotion-worker -u emotion-postgres -n 80 --no-
 sudo tail -n 50 /var/log/nginx/error.log
 sudo systemctl restart emotion-api emotion-worker
 ```
+
+## 7. 关怀活动库为空时的检查与导入
+
+活动库不依赖 AI 开关，也无需用户授权 AI。页面只展示数据库中 `status=published` 且 `review_due_at` 晚于当前时间的活动。GitHub 拉取的 JSON 文件不会自动入库，需要执行下面的导入命令。
+
+仓库内置 25 项完整的原创文字活动，五个类别各 5 项，已经批量设置为 published，无需逐项填写。文件仍为 `content/activities/drafts.json`，保留历史文件名和 slug，以兼容先前导入的草稿。内容已补充实际步骤、适用提示和来源说明；审核信息如实记录为 AI 辅助整理与自动结构校验，不代表人工或专业心理审核。复核期限为本次整理后 180 天，过期后将隐藏。
+
+数据库迁移完成后，在服务器检查活动数量（只读，不修改数据）：
+
+```bash
+cd /srv/emotion/app/backend
+sudo -u emotion /srv/emotion/env/bin/python - <<'PY'
+from sqlalchemy import func, select
+from app.db import SessionLocal, now
+from app.models import Activity
+
+with SessionLocal() as db:
+    counts = db.execute(select(Activity.status, func.count()).group_by(Activity.status)).all()
+    visible = db.scalar(select(func.count()).select_from(Activity).where(
+        Activity.status == 'published', Activity.review_due_at > now()
+    ))
+    print('Counts by status:', dict(counts))
+    print('Visible activities:', visible)
+PY
+```
+
+`Counts by status: {}` 表示未入库；只有 draft 表示尚未发布；published 非零但 Visible 为 0 时，检查复核期限。Visible 大于 0 但页面为空时，清除页面类型筛选，并检查浏览器 `/api/v1/activities` 请求的状态码及响应。
+
+确认服务器已经同步更新后的 `/srv/emotion/app/content/activities/drafts.json`；新文件中每项有完整步骤，status 均为 published。若仍显示 draft，说明服务器拿到的是旧文件，先从已推送最新改动的 GitHub 仓库同步代码，或直接上传本地更新后的同名文件覆盖。不要在 activities 目录中另存一份相同 slug 的 JSON，否则会触发重复数据校验。音乐类提供使用用户已有合法音源的文字指引，不内置音频。
+
+先校验内容，成功后再导入：
+
+```bash
+cd /srv/emotion/app/backend
+sudo -u emotion /srv/emotion/env/bin/python -m app.cli.import_content --path /srv/emotion/app/content --validate-only
+sudo -u emotion /srv/emotion/env/bin/python -m app.cli.import_content --path /srv/emotion/app/content
+```
+
+成功导入后，重新运行上面的只读检查，页面可见数量应为 25。刷新活动库即可，无需重启服务或重新构建前端。相同文件重复导入不会增加重复记录；先前已入库的同 slug 草稿会更新为发布状态。已发布内容不能原地改写，后续修改时使用新的版本 slug 并归档旧版本；若曾手动发布过同 slug 的其他内容，导入器会报版本冲突，此时按新版本规则处理，不直接覆盖。不要用 `seed --demo` 初始化生产活动库，该命令仅供本地 development/test 联调。
 
 本文已按项目代码整理，尚未连接你的 ECS 实际执行。
 

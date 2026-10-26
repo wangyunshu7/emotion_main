@@ -94,7 +94,7 @@ def recommend(data: s.RecommendationIn, user=Depends(current_user), db: DB = Dep
             }
             for a in rows[:3]
         ],
-        "empty_reason": None if rows else "暂时没有符合条件的已审核活动，可以调整时长或场景。",
+        "empty_reason": None if rows else "暂时没有符合条件的已发布活动，可以调整时长或场景。",
     }
 
 

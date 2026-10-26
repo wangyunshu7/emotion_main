@@ -90,14 +90,14 @@ npm run dev
 
 脚本创建虚构演示账号与 7 天日记，并在本地终端显示生成的演示密码；已有账号不会覆盖。也会创建 3 项明确标记“开发演示”的文字活动，仅允许 development/test。不提供默认生产账号。
 
-正式活动草稿校验与导入：
+内置活动校验与批量发布导入：
 
 ```powershell
 .venv/Scripts/python.exe -m app.cli.import_content --path ../content --validate-only
 .venv/Scripts/python.exe -m app.cli.import_content --path ../content
 ```
 
-25 项草稿默认不公开；完善步骤、核查来源授权并填写真实审核信息后才可发布。`support/` 可放置符合 SupportImport 的地区资源 JSON，未经核验不填写号码。
+内置 25 项完整原创文字活动已设置为 published，校验并导入后即可展示。内容由 AI 辅助编写和自动结构校验，记录如实标明此方式，不代表人工或专业审核；音乐类不内置音频。详见 [内容管理](content/README.md)。`support/` 可放置符合 SupportImport 的地区资源 JSON，未经核验不填写号码。
 
 ## AI 模式
 

@@ -199,7 +199,7 @@ export function Care() {
         ))}
       </div>
       {query.data?.items.length === 0 && (
-        <Empty text="目前没有符合条件的已审核活动。部署维护者可导入审核内容；本地开发可显式创建演示样例。" />
+        <Empty text="目前没有符合条件的已发布活动。可以切换分类，或由维护者检查活动是否已导入、发布及过期。" />
       )}
       <CareHistory />
     </>

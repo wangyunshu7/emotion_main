@@ -12,22 +12,30 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：写下此刻的一句话。请由内容维护者完善具体步骤后审核。"
+        "text": "找一个方便停留的位置，准备纸笔或打开日记页面。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "用‘我现在感到……’写一句话，不必解释原因，也不要求积极。"
+      },
+      {
+        "order": 3,
+        "text": "如果愿意，再补一句‘此刻我希望……’，想不到也可以跳过。"
+      },
+      {
+        "order": 4,
+        "text": "读一遍或直接收起，自己决定保留还是删除，不必分享。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合想简单表达当下感受时使用；内容只需自己看，可以留空或随时停止。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-writing-2",
@@ -42,22 +50,30 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：记下一件小事。请由内容维护者完善具体步骤后审核。"
+        "text": "回想今天一件普通的小事，例如一次等车、用餐或与人打招呼。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "用一两句话写下发生了什么，尽量区分事实和自己的猜测。"
+      },
+      {
+        "order": 3,
+        "text": "愿意的话，加上当时的感受；‘没有特别感受’也是一种记录。"
+      },
+      {
+        "order": 4,
+        "text": "给这条记录起一个简短标题，写到这里就可以结束。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合记录普通日常；不要求发现积极意义，也不需要回忆让自己不舒服的经历。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-writing-3",
@@ -72,22 +88,34 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：列出今天需要的支持。请由内容维护者完善具体步骤后审核。"
+        "text": "在纸上或日记中写下‘今天我需要什么’，只考虑当下和今天。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "列出最多三项具体需要，例如休息一会儿、安静的空间或有人听自己说话。"
+      },
+      {
+        "order": 3,
+        "text": "在每项旁边写一个可选的小行动；暂时没有办法时可以写‘之后再想’。"
+      },
+      {
+        "order": 4,
+        "text": "只圈出自己愿意尝试的一项，也可以选择今天先不行动。"
+      },
+      {
+        "order": 5,
+        "text": "收起清单；它是提示，不是必须完成的任务。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合想梳理眼前需要时使用；无需联系他人或立即完成清单，不写任何人的私密信息。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-writing-4",
@@ -102,22 +130,30 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：给自己写一条温柔留言。请由内容维护者完善具体步骤后审核。"
+        "text": "想想此刻愿意对一位疲惫的朋友说什么，不需要解释所有困难。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "把这句话写给自己，可以从‘今天已经做了不少事情’或‘可以先停一下’开始。"
+      },
+      {
+        "order": 3,
+        "text": "把‘必须’‘应该马上’等让自己有压力的词，换成自己更能接受的表达。"
+      },
+      {
+        "order": 4,
+        "text": "留下一句读起来自然的话；如果不喜欢，也可以删掉重写或结束。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合想用平和语气对自己说几句话时使用；无需强迫自己乐观或相信某句话。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-writing-5",
@@ -132,29 +168,45 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：记录一次短暂的轻松。请由内容维护者完善具体步骤后审核。"
+        "text": "找一个能短暂停留的位置，准备记录工具。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "回想最近一个稍感舒适的普通片段，例如合适的温度或一顿方便的饭。"
+      },
+      {
+        "order": 3,
+        "text": "写下当时的地点和正在做的事，只写愿意保留的细节。"
+      },
+      {
+        "order": 4,
+        "text": "再写一句自己喜欢其中什么；没有明确原因也没有关系。"
+      },
+      {
+        "order": 5,
+        "text": "看看是否有一个日后愿意再尝试的小安排，不需要作出承诺。"
+      },
+      {
+        "order": 6,
+        "text": "在预留时间内随时收尾，允许这条记录很短。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合愿意记录一个普通、稍感舒适的片段时使用；想不到也可以跳过，不必否认其他感受。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-daily-care-1",
     "version": 1,
     "title": "留三分钟休息",
     "type": "daily_care",
-    "duration_minutes": 2,
+    "duration_minutes": 3,
     "scenes": [
       "home",
       "office"
@@ -162,22 +214,30 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：留三分钟休息。请由内容维护者完善具体步骤后审核。"
+        "text": "确认当前事务可以暂停，保存正在编辑的内容。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "把手头物品放稳，选择一个舒服的位置坐下或站定。"
+      },
+      {
+        "order": 3,
+        "text": "给自己约三分钟，不安排新的任务，也不要求放空思绪；目光自然停留即可。"
+      },
+      {
+        "order": 4,
+        "text": "结束时看看是否愿意继续原来的事，也可以重新安排接下来的一小步。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合手头事务允许暂时停下时使用；先妥善处理正在进行的工作，不在驾驶或操作设备时进行。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-daily-care-2",
@@ -192,22 +252,30 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：整理眼前一小块空间。请由内容维护者完善具体步骤后审核。"
+        "text": "选择一块很小的区域，例如桌角，而不是整个房间。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "挑出最多三件属于自己的轻便物品，分别决定留在原处、归位或稍后处理。"
+      },
+      {
+        "order": 3,
+        "text": "把要归位的东西放到方便的位置，不追求整齐或一次完成。"
+      },
+      {
+        "order": 4,
+        "text": "看一眼整理后的区域，时间到了就停下，剩下的可以以后再做。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合想整理触手可及的小区域时使用；只移动轻便物品，不碰药品、危险物或他人物品。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-daily-care-3",
@@ -222,22 +290,34 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：暂停一下手头的工作。请由内容维护者完善具体步骤后审核。"
+        "text": "确认可以暂停，先保存工作或给当前进度做个记号。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "写下回来后最小的一步，例如‘继续读下一段’，避免给自己列长清单。"
+      },
+      {
+        "order": 3,
+        "text": "把视线从任务上移开，选择安静坐着、看看周围或换一个自然姿势。"
+      },
+      {
+        "order": 4,
+        "text": "不要求休息期间做任何练习，手机通知也可以暂时不看。"
+      },
+      {
+        "order": 5,
+        "text": "结束时根据实际情况选择继续、调整任务或再留一点休息时间。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合可以自主短暂停下的学习或工作间隙；不要影响正在进行的安全任务。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-daily-care-4",
@@ -252,22 +332,34 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：给自己安排一段空白。请由内容维护者完善具体步骤后审核。"
+        "text": "选一个不耽误当前必要事务的五分钟空档。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "如果愿意，设置一个轻柔提醒；不设置也可以。"
+      },
+      {
+        "order": 3,
+        "text": "在安全舒服的位置待一会儿，不必看书、学习或完成任何目标。"
+      },
+      {
+        "order": 4,
+        "text": "有念头出现时可以让它留着，不需要压下去或评判自己是否休息得好。"
+      },
+      {
+        "order": 5,
+        "text": "时间结束后只决定接下来的一件小事，也可以继续休息。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合想留一段不安排任务的时间时使用；以现实事务允许为前提，不要求达到某种状态。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-daily-care-5",
@@ -282,22 +374,34 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：观察当前环境的舒适度。请由内容维护者完善具体步骤后审核。"
+        "text": "停下来看看所在位置，先确认没有需要立即处理的事务。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "依次留意光线、声音、温度和坐立空间，选出最想调整的一项。"
+      },
+      {
+        "order": 3,
+        "text": "选择一个方便的小动作，例如移开杂物、调整台灯或换到允许停留的位置。"
+      },
+      {
+        "order": 4,
+        "text": "调整后待一会儿，看看是否更适合自己；没有变化也不必继续尝试。"
+      },
+      {
+        "order": 5,
+        "text": "其余时间可以安静停留，或写下一个以后再处理的环境需要。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合想调整身边小环境时使用；只做自己能决定的调整，不移动重物或改变公共安全设施。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-mindfulness-1",
@@ -312,22 +416,30 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：观察窗外的颜色。请由内容维护者完善具体步骤后审核。"
+        "text": "在安全的位置坐好或站稳，选择窗外或室内一个不刺眼的方向。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "找出三种颜色，只在心里说出名称，不需要判断好不好看。"
+      },
+      {
+        "order": 3,
+        "text": "任选一种颜色，再看看附近是否也有相似的颜色。"
+      },
+      {
+        "order": 4,
+        "text": "想结束时把目光移回身边，活动到这里就完成了。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合可以安全停留、愿意观察周围时使用；没有窗户可以看室内物品，不直视太阳或靠近窗沿。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-mindfulness-2",
@@ -342,22 +454,34 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：留意周围的声音。请由内容维护者完善具体步骤后审核。"
+        "text": "在安全位置停留，保持正常姿势和自然呼吸，不必闭眼。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "留意一个听得到的声音，例如风扇或远处人声，只描述它的大致特点。"
+      },
+      {
+        "order": 3,
+        "text": "再留意一个不同方向或远近的声音，不需要努力寻找或辨别来源。"
+      },
+      {
+        "order": 4,
+        "text": "如果声音让自己不舒服，就把注意力放回眼前物品，或直接结束。"
+      },
+      {
+        "order": 5,
+        "text": "看看周围环境，按自己的节奏继续接下来的事情。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合周围声音不会让自己不舒服的安全位置；声音敏感或不愿继续时，可以改看物品或直接停止。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-mindfulness-3",
@@ -372,22 +496,34 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：看看身边的物品。请由内容维护者完善具体步骤后审核。"
+        "text": "选一件身边普通而安全的物品，例如杯子、书本或纸盒。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "看看它的颜色、轮廓和大小，用几个简单的词描述。"
+      },
+      {
+        "order": 3,
+        "text": "如果愿意，换一个观察角度，不需要拿起或触碰物品。"
+      },
+      {
+        "order": 4,
+        "text": "走神时可以重新看一眼，也可以让思绪继续，不必纠正自己。"
+      },
+      {
+        "order": 5,
+        "text": "以自己愿意的方式结束，把注意力转回周围环境。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合想通过观察普通物品停留片刻时使用；选择安全、不会引起不适的物品，不要求保持专注。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-mindfulness-4",
@@ -402,22 +538,34 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：觉察此刻身体感受。请由内容维护者完善具体步骤后审核。"
+        "text": "选择安全、平稳的坐姿或站姿，保持眼睛自然睁开和正常呼吸。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "任选一个身体与物品接触的位置，例如脚与地面或背部与椅背。"
+      },
+      {
+        "order": 3,
+        "text": "只描述接触面的软硬、温度或支撑感，不需要寻找特殊感觉。"
+      },
+      {
+        "order": 4,
+        "text": "如果没有明显感觉，或留意身体让自己不舒服，可以看一件身边物品代替。"
+      },
+      {
+        "order": 5,
+        "text": "按舒适程度换一个自然姿势，随时结束，不需要完成整段时间。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合愿意简单留意身体接触感时使用；不用于判断症状，关注身体让自己不舒服时可以改看周围或停止。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-mindfulness-5",
@@ -432,22 +580,34 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：安静观察一个小物件。请由内容维护者完善具体步骤后审核。"
+        "text": "选一件安全的小物件，放在不用费力就能看到的位置。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "先整体看看，再任选一个细节，例如边缘、纹理或颜色变化。"
+      },
+      {
+        "order": 3,
+        "text": "在心里或纸上写三个描述词，不需要赋予它特别含义。"
+      },
+      {
+        "order": 4,
+        "text": "愿意的话换个角度再看，或把目光移向周围其他物品。"
+      },
+      {
+        "order": 5,
+        "text": "剩余时间可以继续观察，也可以提前结束；保持多久都不作为完成标准。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合愿意花一点时间观察小物件时使用；无需坚持十分钟，不选择尖锐、易碎或危险物品。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-movement-1",
@@ -457,27 +617,36 @@
     "duration_minutes": 2,
     "scenes": [
       "home",
+      "office",
       "outdoor"
     ],
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：按舒适程度走一小段路。请由内容维护者完善具体步骤后审核。"
+        "text": "选择一小段平坦、照明合适且没有障碍的路线，不穿越车流或楼梯。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "站稳后，按自己平时舒服的速度走几步，不设步数目标。"
+      },
+      {
+        "order": 3,
+        "text": "看看前方和周围，保持对路况的注意，不边走边操作手机。"
+      },
+      {
+        "order": 4,
+        "text": "随时可以停下或返回原处，感到不适就停止并选择休息。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合当前能够舒适行走且路线平坦安全时使用；可改为坐着观察，不勉强活动，有不适立即停止。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-movement-2",
@@ -487,27 +656,36 @@
     "duration_minutes": 3,
     "scenes": [
       "home",
+      "office",
       "outdoor"
     ],
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：站起来换一个位置。请由内容维护者完善具体步骤后审核。"
+        "text": "先看看周围，收好可能绊脚的线缆或物品，确认有可停留的位置。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "如果愿意并且能够舒适起身，按自己的速度站稳；不方便起身可以保持坐姿。"
+      },
+      {
+        "order": 3,
+        "text": "走到邻近安全位置，或在原位稍微调整朝向，不要求完成距离。"
+      },
+      {
+        "order": 4,
+        "text": "看看换位置后的视野，想回去就回去；任何不适时立即停下休息。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合能舒适起身且周围安全时使用；起身困难或不适时，可保持坐姿，只调整身边物品的位置。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-movement-3",
@@ -517,27 +695,40 @@
     "duration_minutes": 5,
     "scenes": [
       "home",
+      "office",
       "outdoor"
     ],
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：做一次轻缓伸展。请由内容维护者完善具体步骤后审核。"
+        "text": "选择安全稳定的位置坐好或站稳，给自己留出不碰到物品的空间。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "在完全舒适的范围内轻轻张开手掌，再自然放松，不用力挤压或拉扯。"
+      },
+      {
+        "order": 3,
+        "text": "如果愿意，把手臂换到一个平时舒服的位置；不需要举高、憋气或保持姿势。"
+      },
+      {
+        "order": 4,
+        "text": "留一会儿正常休息，不追求拉伸幅度或次数；也可以全程保持原姿势。"
+      },
+      {
+        "order": 5,
+        "text": "有任何不适立即停止，不把疼痛当作活动目标。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合愿意做日常小幅度活动时使用；不涉及拉伸到极限，不牵拉颈部或关节，有疼痛、眩晕等不适立即停止。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-movement-4",
@@ -547,27 +738,40 @@
     "duration_minutes": 5,
     "scenes": [
       "home",
+      "office",
       "outdoor"
     ],
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：在合适的地方慢慢走走。请由内容维护者完善具体步骤后审核。"
+        "text": "选择熟悉、平坦、允许步行的区域；不合适外出时，可以选室内短路线。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "走之前把手机收好，确认脚下没有积水、台阶等需要额外注意的障碍。"
+      },
+      {
+        "order": 3,
+        "text": "按自己的日常速度走动，以看路和周围安全为先，不设距离或速度要求。"
+      },
+      {
+        "order": 4,
+        "text": "需要时随时停下、坐下或返回原处，剩余时间可以休息。"
+      },
+      {
+        "order": 5,
+        "text": "结束后看看是否还需要休息，不给这次活动打表现分。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合当下能舒适步行时使用；只走熟悉安全的路线，不需要出门或完成五分钟，不适时停止。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-movement-5",
@@ -577,27 +781,40 @@
     "duration_minutes": 10,
     "scenes": [
       "home",
+      "office",
       "outdoor"
     ],
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：留意走路时的感受。请由内容维护者完善具体步骤后审核。"
+        "text": "选择平坦、安全且无需过马路的短路线；若没有合适路线，可以跳过步行。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "按平时舒服的速度开始，不闭眼、不看屏幕，注意脚下和前方。"
+      },
+      {
+        "order": 3,
+        "text": "在确保安全的前提下，偶尔留意一步落地的感觉，不需要改变走路方式。"
+      },
+      {
+        "order": 4,
+        "text": "接着看看前方的物品和路线，不要求持续关注身体或控制呼吸。"
+      },
+      {
+        "order": 5,
+        "text": "可以提前返回并休息，不要求走满十分钟；有任何不适立即停止。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合在熟悉安全路线中舒适步行时使用；路况和交通安全优先，可随时改为坐着观察。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-music-1",
@@ -612,22 +829,30 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：选择一首自己喜欢的歌。请由内容维护者完善具体步骤后审核。"
+        "text": "在安全、方便停留的位置，打开自己有合法访问权限的音乐应用或本地音源。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "选择一首此刻愿意听的歌，不要求安静、积极或符合某种风格。"
+      },
+      {
+        "order": 3,
+        "text": "把音量调到舒适且不遮蔽必要环境提示的程度，按需播放一小段。"
+      },
+      {
+        "order": 4,
+        "text": "不喜欢就暂停或换一首，愿意的话记下歌名，然后结束。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "需要自行使用有合法访问权限的音乐来源；本应用不提供曲目或播放。无需听完整首，不在驾驶或需要听清环境的场景进行。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-music-2",
@@ -642,22 +867,34 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：听一段自己已有的环境音。请由内容维护者完善具体步骤后审核。"
+        "text": "选一段自己已有合法访问权限的环境音，不下载或传播来源不明的音频。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "确认自己不在驾驶、过马路或操作设备，调到舒适的低音量。"
+      },
+      {
+        "order": 3,
+        "text": "试听片刻，判断此刻是否愿意继续；不喜欢可以立刻暂停。"
+      },
+      {
+        "order": 4,
+        "text": "如果继续，可以留意声音的远近或变化，不需要分析它的作用。"
+      },
+      {
+        "order": 5,
+        "text": "在自己愿意时停止播放，活动可以少于三分钟。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "需要自行准备有合法访问权限的音源；本应用不提供音频。声音敏感或听着不舒服时可以静音、改看环境或停止。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-music-3",
@@ -672,22 +909,34 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：安静听完一小段旋律。请由内容维护者完善具体步骤后审核。"
+        "text": "在安全位置选择一段自己愿意听、有合法访问权限的旋律。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "设置舒适音量，保留听到必要环境提示的能力。"
+      },
+      {
+        "order": 3,
+        "text": "按自己的方式听一小段，愿意的话留意一种乐器或一个声音变化。"
+      },
+      {
+        "order": 4,
+        "text": "有其他念头也没有关系，不要求保持专注；随时可以暂停。"
+      },
+      {
+        "order": 5,
+        "text": "播放结束或决定停止后，把设备放好，看看接下来想做什么。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "需要自行准备有合法访问权限的旋律音源；本应用不提供播放，不要求听完，任何不适都可以暂停。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-music-4",
@@ -702,22 +951,34 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：记录音乐带来的感受。请由内容维护者完善具体步骤后审核。"
+        "text": "选择自己已有合法访问权限的音源，在安全位置以舒适音量播放一小段。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "暂停播放，用一两个词记录当下感受，‘没有明显变化’也可以。"
+      },
+      {
+        "order": 3,
+        "text": "愿意的话写下与声音有关的一个特点，例如节奏、音色或歌词的语气。"
+      },
+      {
+        "order": 4,
+        "text": "不需要解释原因或回忆经历；引起不适时可以停止记录并换一个活动。"
+      },
+      {
+        "order": 5,
+        "text": "自行决定保留还是删除文字，不必分享，也不必继续播放。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合愿意记录听后感受时使用；音乐可能带来不同感受，不要求变开心，也不必记录私人回忆。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   },
   {
     "slug": "draft-music-5",
@@ -732,21 +993,33 @@
     "steps": [
       {
         "order": 1,
-        "text": "开发草稿：为休息挑选一段声音。请由内容维护者完善具体步骤后审核。"
+        "text": "先决定此刻想听声音还是保持安静，两种选择都可以。"
       },
       {
         "order": 2,
-        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+        "text": "若愿意听，从自己有合法访问权限的音源中选一小段，不必花时间寻找最佳曲目。"
+      },
+      {
+        "order": 3,
+        "text": "在安全位置设置舒适音量，愿意的话设一个结束提醒，不要求播放满十分钟。"
+      },
+      {
+        "order": 4,
+        "text": "休息时不安排其他任务，想换曲、暂停或改为安静都可以。"
+      },
+      {
+        "order": 5,
+        "text": "结束时停止播放，按自己的节奏继续休息或回到原来的事情。"
       }
     ],
     "audio_asset_key": null,
-    "suitability_note": "未审核草稿，不能直接用于正式发布。",
-    "source_name": "项目原创待审核草稿",
+    "suitability_note": "适合准备短暂休息且愿意听声音时使用；需要自备合法音源，本应用不提供曲目，也不承诺助眠或放松效果。",
+    "source_name": "项目原创文字活动（AI 辅助编写）",
     "source_url": null,
-    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
-    "reviewer": null,
-    "reviewed_at": null,
-    "review_due_at": null,
-    "status": "draft"
+    "license_note": "项目内生成的原创活动文字，随本项目使用；不包含或提供第三方音乐、录音与素材授权。",
+    "reviewer": "AI 辅助内容整理与自动结构校验；非人工或专业审核",
+    "reviewed_at": "2026-10-26T15:09:30.701967+00:00",
+    "review_due_at": "2027-04-24T15:09:30.701967+00:00",
+    "status": "published"
   }
 ]

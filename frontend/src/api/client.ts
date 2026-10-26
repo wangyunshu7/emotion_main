@@ -57,6 +57,7 @@ export async function downloadExport() {
 }
 
 export function message(error: unknown) {
+  if (typeof error === "string" && error.trim()) return error;
   return error instanceof Error ? error.message : "操作未完成，请重试";
 }
 

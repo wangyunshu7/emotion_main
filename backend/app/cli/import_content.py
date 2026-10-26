@@ -1,5 +1,6 @@
 import argparse
 import json
+from collections import Counter
 from pathlib import Path
 
 from sqlalchemy import select
@@ -68,7 +69,8 @@ def load_content(path: Path, validate_only=False):
                     setattr(existing, key, value)
             else:
                 db.add(SupportResource(**record.model_dump()))
-    print(f"Imported {len(records)} activity records. Drafts remain unpublished.")
+    counts = dict(Counter(record.status for record in records))
+    print(f"Imported {len(records)} activity records. Status counts: {counts}")
 
 
 def main():
