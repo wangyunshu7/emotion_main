@@ -1,0 +1,40 @@
+心晴日记 Python 依赖说明
+
+运行环境：Python 3.12。
+完整固定版本及间接依赖：backend/requirements.txt。
+根目录安装入口：requirements.txt。
+
+运行依赖（已写入 requirements.txt，不需要逐个安装）：
+fastapi：HTTP API 与 OpenAPI。
+uvicorn[standard]：ASGI 服务及开发运行。
+sqlalchemy：ORM、事务与数据库查询。
+alembic：数据库结构迁移。
+psycopg[binary]：PostgreSQL 驱动，含预编译组件。
+pydantic-settings：环境变量与配置校验；pydantic 为其及 FastAPI 的间接依赖。
+argon2-cffi：密码哈希及验证。
+email-validator：邮箱格式验证。
+httpx：外部模型 HTTP 请求与接口测试客户端。
+tzdata：Windows 等系统的 IANA 时区数据。
+cryptography：隐私恢复事件与备份文件加密。
+
+开发依赖（backend/requirements-dev.txt 或 uv sync）：
+pytest：后端业务、权限、统计与并发测试。
+ruff：Python 静态检查与格式化。
+
+在项目根目录执行：
+python -m venv backend/.venv
+backend/.venv/Scripts/python.exe -m pip install -r requirements.txt
+
+如需测试及开发检查：
+backend/.venv/Scripts/python.exe -m pip install -r backend/requirements-dev.txt
+
+如果使用 uv：
+cd backend
+uv sync --locked
+
+PostgreSQL 是独立数据库服务，不是 pip 包。
+React、Vite、TypeScript 等前端依赖由 frontend/package.json 管理：
+cd frontend
+npm ci
+
+具体启动、配置、数据库迁移和 AI 模式见 README.md。

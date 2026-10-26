@@ -1,0 +1,752 @@
+[
+  {
+    "slug": "draft-writing-1",
+    "version": 1,
+    "title": "写下此刻的一句话",
+    "type": "writing",
+    "duration_minutes": 2,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：写下此刻的一句话。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-writing-2",
+    "version": 1,
+    "title": "记下一件小事",
+    "type": "writing",
+    "duration_minutes": 3,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：记下一件小事。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-writing-3",
+    "version": 1,
+    "title": "列出今天需要的支持",
+    "type": "writing",
+    "duration_minutes": 5,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：列出今天需要的支持。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-writing-4",
+    "version": 1,
+    "title": "给自己写一条温柔留言",
+    "type": "writing",
+    "duration_minutes": 5,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：给自己写一条温柔留言。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-writing-5",
+    "version": 1,
+    "title": "记录一次短暂的轻松",
+    "type": "writing",
+    "duration_minutes": 10,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：记录一次短暂的轻松。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-daily-care-1",
+    "version": 1,
+    "title": "留三分钟休息",
+    "type": "daily_care",
+    "duration_minutes": 2,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：留三分钟休息。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-daily-care-2",
+    "version": 1,
+    "title": "整理眼前一小块空间",
+    "type": "daily_care",
+    "duration_minutes": 3,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：整理眼前一小块空间。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-daily-care-3",
+    "version": 1,
+    "title": "暂停一下手头的工作",
+    "type": "daily_care",
+    "duration_minutes": 5,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：暂停一下手头的工作。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-daily-care-4",
+    "version": 1,
+    "title": "给自己安排一段空白",
+    "type": "daily_care",
+    "duration_minutes": 5,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：给自己安排一段空白。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-daily-care-5",
+    "version": 1,
+    "title": "观察当前环境的舒适度",
+    "type": "daily_care",
+    "duration_minutes": 10,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：观察当前环境的舒适度。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-mindfulness-1",
+    "version": 1,
+    "title": "观察窗外的颜色",
+    "type": "mindfulness",
+    "duration_minutes": 2,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：观察窗外的颜色。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-mindfulness-2",
+    "version": 1,
+    "title": "留意周围的声音",
+    "type": "mindfulness",
+    "duration_minutes": 3,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：留意周围的声音。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-mindfulness-3",
+    "version": 1,
+    "title": "看看身边的物品",
+    "type": "mindfulness",
+    "duration_minutes": 5,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：看看身边的物品。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-mindfulness-4",
+    "version": 1,
+    "title": "觉察此刻身体感受",
+    "type": "mindfulness",
+    "duration_minutes": 5,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：觉察此刻身体感受。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-mindfulness-5",
+    "version": 1,
+    "title": "安静观察一个小物件",
+    "type": "mindfulness",
+    "duration_minutes": 10,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：安静观察一个小物件。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-movement-1",
+    "version": 1,
+    "title": "按舒适程度走一小段路",
+    "type": "movement",
+    "duration_minutes": 2,
+    "scenes": [
+      "home",
+      "outdoor"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：按舒适程度走一小段路。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-movement-2",
+    "version": 1,
+    "title": "站起来换一个位置",
+    "type": "movement",
+    "duration_minutes": 3,
+    "scenes": [
+      "home",
+      "outdoor"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：站起来换一个位置。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-movement-3",
+    "version": 1,
+    "title": "做一次轻缓伸展",
+    "type": "movement",
+    "duration_minutes": 5,
+    "scenes": [
+      "home",
+      "outdoor"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：做一次轻缓伸展。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-movement-4",
+    "version": 1,
+    "title": "在合适的地方慢慢走走",
+    "type": "movement",
+    "duration_minutes": 5,
+    "scenes": [
+      "home",
+      "outdoor"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：在合适的地方慢慢走走。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-movement-5",
+    "version": 1,
+    "title": "留意走路时的感受",
+    "type": "movement",
+    "duration_minutes": 10,
+    "scenes": [
+      "home",
+      "outdoor"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：留意走路时的感受。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-music-1",
+    "version": 1,
+    "title": "选择一首自己喜欢的歌",
+    "type": "music",
+    "duration_minutes": 2,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：选择一首自己喜欢的歌。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-music-2",
+    "version": 1,
+    "title": "听一段自己已有的环境音",
+    "type": "music",
+    "duration_minutes": 3,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：听一段自己已有的环境音。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-music-3",
+    "version": 1,
+    "title": "安静听完一小段旋律",
+    "type": "music",
+    "duration_minutes": 5,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：安静听完一小段旋律。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-music-4",
+    "version": 1,
+    "title": "记录音乐带来的感受",
+    "type": "music",
+    "duration_minutes": 5,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：记录音乐带来的感受。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  },
+  {
+    "slug": "draft-music-5",
+    "version": 1,
+    "title": "为休息挑选一段声音",
+    "type": "music",
+    "duration_minutes": 10,
+    "scenes": [
+      "home",
+      "office"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "开发草稿：为休息挑选一段声音。请由内容维护者完善具体步骤后审核。"
+      },
+      {
+        "order": 2,
+        "text": "按个人舒适程度选择，可随时停止，不必完成或填写反馈。"
+      }
+    ],
+    "audio_asset_key": null,
+    "suitability_note": "未审核草稿，不能直接用于正式发布。",
+    "source_name": "项目原创待审核草稿",
+    "source_url": null,
+    "license_note": "原创文字草稿，正式发布前复核；不包含音乐授权。",
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_due_at": null,
+    "status": "draft"
+  }
+]
